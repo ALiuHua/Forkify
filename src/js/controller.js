@@ -137,6 +137,5 @@ const init = function () {
   recipeView.addHandlerUpdateServings(controlServings);
   addRecipeView.addHandlerAddRecipe(controlAddRecipe);
   window.location.hash = '';
-  console.log('welcome!');
 };
 init();
